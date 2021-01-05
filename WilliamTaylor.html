@@ -1,0 +1,111 @@
+<body style="background-color:powderblue;">
+<title> William Taylor's page </title>
+<h1> William Taylor's page </h1>
+<p> This page is designed to be a quiz. This quiz will have four questions about CSGO skins. Information for the quiz can be found at the link below.</p>
+<a href="https://csgostash.com/" target="_blank">CSGOstash</a>
+<br>
+<br>
+
+<script> 
+function wrong() {
+document.getElementById("p1").innerHTML="Incorrect";
+}
+</script>
+
+<script> 
+function right() {
+document.getElementById("p1").innerHTML="Correct";
+}
+</script>
+
+<script> 
+function wrong2() {
+document.getElementById("p2").innerHTML="Incorrect";
+}
+</script>
+
+<script> 
+function right2() {
+document.getElementById("p2").innerHTML="Correct";
+}
+</script>
+
+<script> 
+function wrong3() {
+document.getElementById("p3").innerHTML="Incorrect";
+}
+</script>
+
+<script> 
+function right3() {
+document.getElementById("p3").innerHTML="Correct";
+}
+</script>
+
+<script> 
+function wrong4() {
+document.getElementById("p4").innerHTML="Incorrect";
+}
+</script>
+
+<script> 
+function right4() {
+document.getElementById("p4").innerHTML="Correct";
+}
+</script>
+
+<script> 
+function reset() {
+document.getElementById("p1").innerHTML=" ";
+document.getElementById("p2").innerHTML=" ";
+document.getElementById("p3").innerHTML=" ";
+document.getElementById("p4").innerHTML=" ";
+}
+</script>
+
+<p>What is the most a Desert Eagle | Printstream has been sold for?</p>
+<button onclick="wrong()">$12.35</button>
+<br>
+<button onclick="wrong()">$35.12</button>
+<br>
+<button onclick="right()">$735.15</button>
+<p id="p1"></p>
+
+<p>Which is (on average) the most expensive CSGO skin that isn't a knife?</p>
+<button onclick="right2()">
+   <p> M4A4 Howl</p>
+   <img src="howl.jpeg" width="250" height="150" />
+</button>
+<br>
+
+<button onclick="wrong2()">
+   <p> AWP Dragon Lore</p>
+   <img src="dragon.jpg" width="250" height="150" />
+</button>
+<br>
+
+<button onclick="wrong2()"> 
+   <p> Karambit Lore</p>
+   <img src="lore.jpeg" width="250" height="150" />
+</button>
+<br>
+<p id="p2"></p>
+
+
+<p>Why is your answer for question 2 the correct answer?</p>
+<button onclick="right3()">Becasue my answer was made using a copyrighted design and got discontinued</button>
+<br>
+<button onclick="wrong3()">Because my answer looks the coolest</button>
+<br>
+<button onclick="wrong3()">Becasue my answer cost the most in-game</button>
+<p id="p3"></p>
+
+<p>Of the options from question 2, which had the most expensive instance (not average)? And how much did it sell for?</p>
+<button onclick="wrong4()">Karambit Lore, $500</button>
+<br>
+<button onclick="wrong4()">Karambit Lore, $1,342</button>
+<br>
+<button onclick="right4()">AWP dragon lore, $61,000</button>
+<p id="p4"></p>
+
+<button onclick="reset()">RESET</button>
